@@ -1,9 +1,9 @@
 # What is the value of a, b, & c?
 
 string = "Welcome to America!"
-a = string[6]
-b = string[11]
-c = string[19]
+p a = string[6]
+p b = string[11]
+p c = string[19]
 
 # my_answer => a = "e"
 # my_answer => b = "A"

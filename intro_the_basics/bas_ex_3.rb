@@ -16,3 +16,5 @@ puts movies[:captain_philips]
 puts movies[:a_beautiful_mind]
 puts movies[:raiders_of_the_lost_ark]
 puts ""
+
+puts movies.values

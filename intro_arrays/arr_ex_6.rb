@@ -2,7 +2,10 @@
 # Fix the error...
 
 names = ['bob', 'joe', 'susan', 'margaret']
-names['margaret'] = 'jody'
+names.pop
+names.push("Jody")
+p names
+#names['margaret'] = 'jody'
 
 =begin
 TypeError: no implicit conversion of String into Integer

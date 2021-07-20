@@ -19,5 +19,8 @@ puts "#{h}"
 # 3. Remove all key:value pairs whose value is less than 3.5
 
 # my_answer =>
-h.delete_if { |key, value| value < 3.5 }
+h.select! do |key, value|
+       value > 3.5
+     end
+#h.delete_if { |key, value| value < 3.5 }
 puts h

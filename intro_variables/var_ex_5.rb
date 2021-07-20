@@ -22,7 +22,7 @@ puts x
 
 # correct_answer =>
 
-# The first prints 3 to the screen. The second gives an error indefined
+# The first prints 3 to the screen. The second gives an error undefined
 # local variable because x is only within the do/end. It was not declared
 # outside the loop.
 

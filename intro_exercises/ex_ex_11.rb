@@ -14,7 +14,7 @@ contact_data = [["joe@email.com", "123 Main st.", "555-123-4567"],
 contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 
 # my_answer =>
-# original delted
+# original deleted
 # tried creating a method,  using .map!, using variables
 # tried to make it loop and iterate
 

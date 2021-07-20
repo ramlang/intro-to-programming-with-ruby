@@ -7,6 +7,17 @@
 "elaborate"
 "polar bear"
 
+def include1(word)
+  puts word if word.downcase.include?("lab")
+end
+include1("laboratory")
+include1("experiment")
+include1("Pans Labyrinth")
+include1("elaborate")
+include1("polar bear")
+
+
+=begin
 # my_answer =>
 
 def lab_check(string)
@@ -37,3 +48,5 @@ check_in("experiment")
 check_in("Pans Labyrinth")
 check_in("elaborate")
 check_in("polar bear")
+
+=end

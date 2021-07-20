@@ -8,7 +8,7 @@
 hash = {:character => "Sora", :level => 20, :hp => 1000, :mp => 50}
 
 puts hash.fetch(:character)
-puts hash.has_value?("Sora")
+puts hash.include?("Sora")
 
 # example_of_answer =>
 
